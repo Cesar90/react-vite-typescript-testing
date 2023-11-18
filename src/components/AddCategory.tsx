@@ -6,7 +6,7 @@ interface IProps{
 }
 
 export const AddCategory:FC<IProps> = ({onNewCategory}) => {
-    const [inputValue, setInputValue] = useState<string>('One Punch')
+    const [inputValue, setInputValue] = useState<string>('')
 
     const onInputChange = ({target}: React.ChangeEvent<HTMLInputElement>) => {
         setInputValue(target.value)
