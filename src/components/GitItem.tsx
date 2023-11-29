@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import { FC } from "react";
 
 // interface IProps{
 //     image: RequireOnly<Datum, 'id'|'url'|'title'>
@@ -6,12 +6,11 @@ import { FC } from 'react'
 
 // type AnyCompProps = React.ComponentProps<typeof GitItem>
 
-
-export const GitItem:FC<TImage> = ({ url, title}) => {
+export const GitItem: FC<TImage> = ({ url, title }) => {
   return (
-    <div className='card'>
-        <img src={url} alt={title} />
-        {title}
+    <div className="card">
+      <img src={url} alt={title} />
+      <p>{title}</p>
     </div>
-  )
-}
+  );
+};
