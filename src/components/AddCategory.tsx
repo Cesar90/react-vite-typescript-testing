@@ -22,7 +22,7 @@ export const AddCategory: FC<IProps> = ({ onNewCategory }) => {
   };
 
   return (
-    <form onSubmit={(event) => onSubmit(event)} arial-label="form">
+    <form onSubmit={(event) => onSubmit(event)} aria-label="form">
       <input
         type="text"
         placeholder="Find Gifs"
