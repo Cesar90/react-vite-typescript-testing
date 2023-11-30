@@ -1,4 +1,5 @@
-import fetch from "node-fetch";
+// import fetch from "node-fetch";
+import "isomorphic-fetch";
 
 export const getGifs = async (category: string) => {
   const url = `https://api.giphy.com/v1/gifs/search?api_key=7wWTxuScqyBc2kWsUE5cJ03d1HIoezUT&q=${category}&limit=10`;

@@ -9,7 +9,7 @@
     "test": "jest --watchAll"
   },
   "dependencies": {
-    "node-fetch": "^2.7.0",
+    "isomorphic-fetch": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -18,7 +18,6 @@
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.0.2",
-    "@types/node-fetch": "^2.6.9",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
